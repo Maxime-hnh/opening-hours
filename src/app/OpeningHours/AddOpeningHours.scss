@@ -1,0 +1,20 @@
+#AddOpeningHours {
+  .back_button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #222;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    height: 2.5em;
+    padding: calc(0.5em - 1px) 1em;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .back_button:hover {
+    background-color: hsl(0, 0%, 21%);
+    color: white;
+  }
+}

@@ -1,0 +1,74 @@
+#openingHoursCycleChoice {
+
+  .mantine-InputWrapper-label {
+    font-size: calc(1rem * 1);
+  }
+
+  .mantine-Calendar-levelsGroup {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  padding-top: 0.5rem;
+
+  .radio_group_container {
+    width: 100%;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e6e9ec;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .step_container {
+    width: 100%;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e6e9ec;
+
+    .radio_group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .mantine-Select-root {
+      width: 50%;
+    }
+
+    .dayPicker_container {
+      margin-top: 1rem;
+      border-radius: 7px;
+    }
+
+    .dayPicker_text {
+      width: 100%;
+      text-align: center;
+      background-color: #e6e9ec;
+    }
+  }
+
+  .datesPicker_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .datePickerInput {
+      display: flex;
+      align-items: center;
+
+      label {
+        padding-right: 0.5rem;
+      }
+    }
+
+    @media screen and (max-width : 769px) {
+      flex-direction: column;
+      align-items: flex-start;
+
+      > :first-child {
+        margin-bottom: 0.5rem;
+      }
+
+    }
+  }
+}
